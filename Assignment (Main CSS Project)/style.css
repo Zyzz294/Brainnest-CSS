@@ -1,0 +1,271 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+
+}
+.head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    background-color: #1F2937;
+    padding-bottom: 10rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 3rem;
+
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    color: white;
+    padding-left: 3rem;
+}
+.navRight h1{
+    cursor: pointer;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.navRight img{
+    margin-left: 15px;
+    border: #9c9a9a 1px solid;
+    border-radius: 15px;
+}
+.navLeft {
+    display: flex;
+    margin-right: 5rem;
+    padding-right: 3rem;
+}
+.navLeft p:hover{
+    color: black;
+}
+.navLeft p {
+    margin-right: 15px;
+    margin-top: 25px;
+    color: rgb(207, 202, 202);
+    cursor: pointer;
+}
+
+.contentRight{
+
+}
+.contentRight h1 {
+    font-size: 48px;
+    font-weight:800;
+    color: #F9FAF8;
+}
+
+.contentRight p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    border: #F9FAF8 2px solid;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+	background-color:#F9FAF8;
+    color: #3882f6;
+    box-shadow: 2px 2px 5px #3882f6;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+.midContent{
+    background-color: white;
+    padding: 5rem;
+}
+.midContent h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(140, 140, 250);
+   
+}
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.imgDiv p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 5rem;
+}
+.info {
+    display: flex;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.quoteSection{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    position: relative;
+    top: -120px;
+    left: 30%;
+    margin-right: 2rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    padding: 5rem;
+}
+.sign{
+    background-color: #F9FAF8;;
+    padding: 5rem;
+    
+}
+.signUp {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+    
+}
+
+.signUpText{
+    margin-right: 10rem;
+}
+
+footer{
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footerLeft{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerRight{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerRight a{
+    padding: 10px;
+}
+
+
+@media screen and (max-width:480px) {
+    .head{
+        display: flex;
+        flex-direction: column;
+    }
+    .navLeft {
+        display: none;
+    }
+    .navRight {
+        position: relative;
+        right: 100px;
+    }
+    .contentRight{
+        margin-bottom: 2rem;
+    }
+    .contentLeft img{
+        width: 400px;
+    }
+    .midContent h1{
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+    .imgDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .quoteSection{
+        display: none;
+    }
+    .sign{
+        display: none;
+
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerLeft{
+        display: none;
+    }
+
+    .footerRight{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tel {
+        text-decoration: none;
+    }
+
+
+}

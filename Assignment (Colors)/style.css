@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+h2 {
+    color: rgb(2, 2, 138);
+}
+h3 {
+    color: #ffff00;
+}
+h4 {
+    color: hsl(290, 100%, 50%);
+}
+
+.color-1{
+    background-color: aqua;
+}
+.color-2{
+    background-color:aquamarine
+}
+.color-3{
+    background-color:blueviolet
+}
+.color-4{
+    background-color:burlywood
+}
